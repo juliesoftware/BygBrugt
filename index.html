@@ -1,13 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="da">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BygBrugt</title>
   <script data-goatcounter="https://perhc.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 48px 40px;
+      max-width: 580px;
+      width: 100%;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: #1a1a1a;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.05rem;
+      color: #444;
+      line-height: 1.7;
+      margin-bottom: 36px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #2563eb;
+      color: white;
+      text-decoration: none;
+      padding: 14px 32px;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      transition: background-color 0.2s;
+    }
+
+    .btn:hover {
+      background-color: #1d4ed8;
+    }
+  </style>
 </head>
 <body>
-
-<h1>Welcome to my site</h1>
-
+  <div class="card">
+    <h1>Tak for dit besøg!</h1>
+    <p>
+      Tak for at besøge vores side og derved hjælpe os med at finde ud af,
+      om der er et marked for vores produkt. Nedenfor er der et link til en
+      mega kort survey — hvis du har lyst til at give os lidt mere information om dig,
+      ville det betyde enormt meget for os!
+    </p>
+    <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSccOO7jIbpjys0NWyOn3La84K5oaOk1Bt77JO40WI4R3P2Z_w/viewform?usp=header" target="_blank">Tag vores korte survey og få 10% rabat på dit første køb når siden er live</a>
+  </div>
 </body>
 </html>

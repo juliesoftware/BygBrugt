@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BygBrugt</title>
   <script data-goatcounter="https://perhc.goatcounter.com/count"
-          async src="//gc.zgo.at/count.js"></script>
+          async src="//gc.zgo.at/count.js"
+          onload="window.goatcounter.visit_count({append: '#visit-count'})"></script>
   <style>
     * {
       box-sizing: border-box;
@@ -61,6 +62,12 @@
     .btn:hover {
       background-color: #1d4ed8;
     }
+
+    #visit-count {
+      margin-top: 32px;
+      font-size: 0.9rem;
+      color: #999;
+    }
   </style>
 </head>
 <body>
@@ -73,6 +80,7 @@
       ville det betyde enormt meget for os!
     </p>
     <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSccOO7jIbpjys0NWyOn3La84K5oaOk1Bt77JO40WI4R3P2Z_w/viewform?usp=header" target="_blank">Tag vores korte survey og få 10% rabat på dit første køb når siden er live</a>
+    <div id="visit-count"></div>
   </div>
 </body>
 </html>
